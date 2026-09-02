@@ -36,6 +36,10 @@ Os PDFs em `fontes/` são a única fonte de verdade.
 | `banco-nacional-questoes.pdf` | 1.492 questões (SENATRAN / Ministério dos Transportes), 313 páginas |
 | `mosaico-placas-sinalizacao.pdf` | 146 placas do Manual Brasileiro de Sinalização de Trânsito |
 
+Os quatro módulos didáticos ficam no Drive, fora do repositório por causa do
+tamanho (20–34 MB cada). Deles saíram os cartões de estudo, e cada cartão cita
+a seção de onde foi resumido.
+
 O currículo vem do próprio material: são **quatro módulos**, não as cinco
 matérias clássicas do Detran. É o programa federal "CNH do Brasil".
 
@@ -58,7 +62,8 @@ não memória de questão já vista.
 - **Blocos por matéria** — cada módulo dividido em blocos de ~20 questões, com
   progresso próprio e a faixa de páginas do material que cobre
 - **Simulado** — cronometrado, sem gabarito durante a prova, com revisão no fim
-- **Cartões de estudo** — resumos do material didático, interrompíveis
+- **Cartões de estudo** — 28 resumos do material didático (6 + 6 + 8 + 8, um
+  conjunto por módulo), interrompíveis: ao voltar, abre no primeiro não lido
 - **Placas** — as 146 placas navegáveis, mais treino com as questões reais do
   banco que mostram placa
 - **Contagem regressiva** — aparece só depois que você informa a data da prova
