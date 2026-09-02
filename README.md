@@ -21,18 +21,39 @@ Os PDFs em `fontes/` são a única fonte de verdade do conteúdo.
 | Arquivo | O que traz |
 | --- | --- |
 | `mosaico-placas-sinalizacao.pdf` | 146 placas do Manual Brasileiro de Sinalização de Trânsito |
+| `banco-nacional-questoes.pdf` | 1.492 questões do Banco Nacional de Questões (SENATRAN) |
+
+O currículo vem do próprio material: **quatro módulos**, não as cinco matérias
+clássicas.
+
+| Módulo | Questões |
+| --- | ---: |
+| 1 — Placas, Cores e Caminhos | 412 |
+| 2 — Escolhas e Consequências | 204 |
+| 3 — Na Direção da Segurança | 616 |
+| 4 — Cuidar, Agir e Preservar | 260 |
 
 ## Pipeline
 
 ```bash
-python3 tools/extrair-placas.py   # requer pdfplumber, pypdfium2, pillow
+python3 tools/extrair-placas.py    # requer pdfplumber, pypdfium2, pillow
+python3 tools/extrair-questoes.py  # requer pdfplumber; usa a saída do anterior
 ```
 
-Lê o PDF do mosaico e gera:
+`extrair-placas.py` lê o mosaico e gera:
 
 - `public/placas/<CODIGO>.webp` — 146 imagens (~1,2 MB no total, cabem no
   precache offline da PWA)
 - `src/content/placas.gerado.json` — código, nome, categoria e origem
 
-O script aborta se a contagem de imagens não bater com a de códigos, para que
-um PDF diferente do esperado não passe despercebido.
+`extrair-questoes.py` lê o banco de questões e gera
+`src/content/questoes.gerado.json` — enunciado, quatro alternativas,
+explicação, módulo, dificuldade, placa citada e página de origem.
+
+Ambos abortam ao encontrar qualquer coisa fora do formato esperado (contagem
+de imagens que não bate, questão sem explicação, número de distratores
+diferente de 3), para um PDF diferente não passar despercebido.
+
+As alternativas são embaralhadas com semente derivada do id da questão: a
+ordem é estável entre execuções e a resposta certa não cai sempre na mesma
+posição.
