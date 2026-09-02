@@ -61,15 +61,17 @@ def sem_acento(texto: str) -> str:
     return unicodedata.normalize("NFD", texto.lower()).encode("ascii", "ignore").decode()
 
 
-def extrair() -> list[dict]:
+def extrair() -> tuple[list[dict], int]:
     if not os.path.exists(PDF):
         sys.exit(f"PDF não encontrado: {PDF}")
 
     os.makedirs(DIR_IMG, exist_ok=True)
     doc = pdfium.PdfDocument(PDF)
     placas: list[dict] = []
+    total_paginas = 0
 
     with pdfplumber.open(PDF) as pdf:
+        total_paginas = len(pdf.pages)
         for indice, pagina in enumerate(pdf.pages):
             numero = indice + 1
             if numero not in CATEGORIA_POR_PAGINA:
@@ -157,11 +159,11 @@ def extrair() -> list[dict]:
                     }
                 )
 
-    return placas
+    return placas, total_paginas
 
 
 def main() -> None:
-    placas = extrair()
+    placas, paginas = extrair()
 
     # Ordena por categoria e depois pelo número do código (R-4a antes de R-10).
     ordem = {"regulamentacao": 0, "advertencia": 1, "indicacao": 2}
@@ -174,8 +176,14 @@ def main() -> None:
     placas.sort(key=chave)
 
     os.makedirs(os.path.dirname(SAIDA), exist_ok=True)
+    manifesto = {
+        "documento": DOC,
+        "arquivo": os.path.relpath(PDF, RAIZ),
+        "paginas": paginas,
+        "itens": placas,
+    }
     with open(SAIDA, "w", encoding="utf-8") as arquivo:
-        json.dump(placas, arquivo, ensure_ascii=False, indent=1)
+        json.dump(manifesto, arquivo, ensure_ascii=False, indent=1)
         arquivo.write("\n")
 
     por_categoria: dict[str, int] = {}

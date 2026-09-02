@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Baliza">
+  <rect width="512" height="512" rx="112" fill="#d9480f"/>
+  <!-- Cone de baliza: a manobra que se vence na repetição. -->
+  <path d="M256 96c14 0 21 9 24 22l58 250H174l58-250c3-13 10-22 24-22z" fill="#fff"/>
+  <rect x="196" y="222" width="120" height="30" rx="6" fill="#d9480f"/>
+  <rect x="180" y="292" width="152" height="30" rx="6" fill="#d9480f"/>
+  <rect x="132" y="378" width="248" height="44" rx="14" fill="#fff"/>
+</svg>

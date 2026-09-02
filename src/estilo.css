@@ -1,0 +1,415 @@
+/*
+ * Baliza — identidade.
+ *
+ * A cor principal é o laranja da sinalização temporária: no trânsito ela quer
+ * dizer "algo está acontecendo aqui, preste atenção". É exatamente o estado de
+ * quem está aprendendo — e não se confunde com nenhuma outra sinalização.
+ * Verde e vermelho ficam reservados para acerto e erro, onde o significado já
+ * é dado pelo próprio contexto de trânsito.
+ */
+
+:root {
+  --laranja: #d9480f;
+  --laranja-claro: #ff922b;
+  --verde: #15803d;
+  --verde-fundo: #ecfdf3;
+  --vermelho: #be123c;
+  --vermelho-fundo: #fef2f4;
+
+  --tinta: #17181c;
+  --tinta-2: #55575e;
+  --tinta-3: #8b8d95;
+  --papel: #fbfaf8;
+  --cartao: #ffffff;
+  --borda: #e6e4df;
+  --realce: #f4f2ee;
+
+  --raio: 14px;
+  --raio-g: 20px;
+  --sombra: 0 1px 2px rgb(23 24 28 / 0.05), 0 4px 16px -8px rgb(23 24 28 / 0.12);
+
+  --largura: 620px;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema='claro']) {
+    --laranja: #ff922b;
+    --laranja-claro: #ffa94d;
+    --verde: #4ade80;
+    --verde-fundo: #0d2a1a;
+    --vermelho: #fb7185;
+    --vermelho-fundo: #2c1117;
+
+    --tinta: #f2f1ee;
+    --tinta-2: #a8a9b0;
+    --tinta-3: #74757c;
+    --papel: #131418;
+    --cartao: #1b1d22;
+    --borda: #2c2e35;
+    --realce: #23252b;
+
+    --sombra: 0 1px 2px rgb(0 0 0 / 0.3), 0 4px 16px -8px rgb(0 0 0 / 0.5);
+    color-scheme: dark;
+  }
+}
+
+:root[data-tema='escuro'] {
+  --laranja: #ff922b;
+  --laranja-claro: #ffa94d;
+  --verde: #4ade80;
+  --verde-fundo: #0d2a1a;
+  --vermelho: #fb7185;
+  --vermelho-fundo: #2c1117;
+
+  --tinta: #f2f1ee;
+  --tinta-2: #a8a9b0;
+  --tinta-3: #74757c;
+  --papel: #131418;
+  --cartao: #1b1d22;
+  --borda: #2c2e35;
+  --realce: #23252b;
+
+  --sombra: 0 1px 2px rgb(0 0 0 / 0.3), 0 4px 16px -8px rgb(0 0 0 / 0.5);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root { height: 100%; }
+
+body {
+  margin: 0;
+  background: var(--papel);
+  color: var(--tinta);
+  font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+button { font: inherit; color: inherit; }
+
+h1, h2, h3 { margin: 0; font-weight: 640; letter-spacing: -0.018em; line-height: 1.2; }
+h1 { font-size: 1.6rem; }
+h2 { font-size: 1.15rem; }
+h3 { font-size: 1rem; }
+p { margin: 0; }
+
+/* ── Estrutura ──────────────────────────────────────────────────────────── */
+
+.app {
+  max-width: var(--largura);
+  margin: 0 auto;
+  padding: 0 18px calc(84px + env(safe-area-inset-bottom));
+  min-height: 100%;
+}
+
+.topo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: max(18px, env(safe-area-inset-top)) 0 14px;
+}
+
+.topo h1 { flex: 1; }
+
+.pilha { display: grid; gap: 12px; }
+.pilha-g { display: grid; gap: 22px; }
+.linha { display: flex; align-items: center; gap: 10px; }
+.espaco { flex: 1; }
+
+.secao-titulo {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.secao-titulo h2 { flex: 1; }
+
+.miudo { font-size: 0.82rem; color: var(--tinta-3); }
+.medio { font-size: 0.9rem; color: var(--tinta-2); }
+.forte { font-weight: 620; }
+.tabular { font-variant-numeric: tabular-nums; }
+
+/* ── Cartões ────────────────────────────────────────────────────────────── */
+
+.cartao {
+  background: var(--cartao);
+  border: 1px solid var(--borda);
+  border-radius: var(--raio-g);
+  padding: 18px;
+  box-shadow: var(--sombra);
+}
+
+.cartao-acao {
+  display: block;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  transition: transform 0.12s ease, border-color 0.12s ease;
+}
+.cartao-acao:hover { border-color: var(--tinta-3); }
+.cartao-acao:active { transform: scale(0.99); }
+.cartao-acao:disabled { cursor: default; opacity: 0.55; }
+.cartao-acao:disabled:hover { border-color: var(--borda); }
+
+/* ── Botões ─────────────────────────────────────────────────────────────── */
+
+.botao {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid transparent;
+  border-radius: var(--raio);
+  padding: 13px 18px;
+  font-weight: 600;
+  cursor: pointer;
+  background: var(--laranja);
+  color: #fff;
+  transition: filter 0.12s ease, transform 0.12s ease;
+}
+.botao:hover { filter: brightness(1.06); }
+.botao:active { transform: scale(0.985); }
+.botao:disabled { opacity: 0.45; cursor: default; filter: none; transform: none; }
+
+.botao-largo { width: 100%; }
+
+.botao-suave {
+  background: var(--realce);
+  color: var(--tinta);
+  border-color: var(--borda);
+}
+
+.botao-fantasma {
+  background: transparent;
+  color: var(--tinta-2);
+  border-color: transparent;
+  padding: 8px 10px;
+}
+.botao-fantasma:hover { color: var(--tinta); background: var(--realce); }
+
+.icone-botao {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--borda);
+  background: var(--cartao);
+  cursor: pointer;
+  flex: none;
+}
+.icone-botao:hover { background: var(--realce); }
+
+/* ── Barra de progresso ─────────────────────────────────────────────────── */
+
+.barra {
+  height: 8px;
+  border-radius: 99px;
+  background: var(--realce);
+  overflow: hidden;
+}
+.barra > i {
+  display: block;
+  height: 100%;
+  border-radius: 99px;
+  background: var(--laranja);
+  transition: width 0.35s ease;
+}
+.barra.fina { height: 5px; }
+.barra.verde > i { background: var(--verde); }
+
+/* ── Etiquetas ──────────────────────────────────────────────────────────── */
+
+.etiqueta {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 9px;
+  border-radius: 99px;
+  font-size: 0.74rem;
+  font-weight: 620;
+  background: var(--realce);
+  color: var(--tinta-2);
+  white-space: nowrap;
+}
+.etiqueta.laranja { background: color-mix(in srgb, var(--laranja) 14%, transparent); color: var(--laranja); }
+.etiqueta.verde { background: var(--verde-fundo); color: var(--verde); }
+.etiqueta.vermelha { background: var(--vermelho-fundo); color: var(--vermelho); }
+
+/* ── Quiz ───────────────────────────────────────────────────────────────── */
+
+.enunciado { font-size: 1.12rem; font-weight: 560; line-height: 1.38; }
+
+.placa-figura {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid var(--borda);
+  border-radius: var(--raio);
+}
+.placa-figura img { width: 148px; height: auto; }
+
+.alternativa {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  text-align: left;
+  padding: 14px 16px;
+  border-radius: var(--raio);
+  border: 1.5px solid var(--borda);
+  background: var(--cartao);
+  cursor: pointer;
+  transition: border-color 0.12s ease, background 0.12s ease;
+  line-height: 1.4;
+}
+.alternativa:hover:not(:disabled) { border-color: var(--tinta-3); }
+.alternativa:disabled { cursor: default; }
+
+.alternativa .marca {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1.5px solid var(--borda);
+  display: grid;
+  place-items: center;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--tinta-3);
+  margin-top: 1px;
+}
+
+.alternativa.certa { border-color: var(--verde); background: var(--verde-fundo); }
+.alternativa.certa .marca { border-color: var(--verde); background: var(--verde); color: #fff; }
+.alternativa.errada { border-color: var(--vermelho); background: var(--vermelho-fundo); }
+.alternativa.errada .marca { border-color: var(--vermelho); background: var(--vermelho); color: #fff; }
+.alternativa.apagada { opacity: 0.5; }
+
+.explicacao {
+  border-left: 3px solid var(--laranja);
+  padding: 2px 0 2px 14px;
+  display: grid;
+  gap: 8px;
+}
+
+.rodape-quiz {
+  position: sticky;
+  bottom: 0;
+  padding: 14px 0 calc(14px + env(safe-area-inset-bottom));
+  background: linear-gradient(to bottom, transparent, var(--papel) 22%);
+}
+
+/* ── Navegação inferior ─────────────────────────────────────────────────── */
+
+.nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  padding: 6px 8px calc(6px + env(safe-area-inset-bottom));
+  background: color-mix(in srgb, var(--papel) 88%, transparent);
+  backdrop-filter: blur(12px);
+  border-top: 1px solid var(--borda);
+}
+
+.nav button {
+  flex: 1;
+  max-width: 120px;
+  display: grid;
+  justify-items: center;
+  gap: 3px;
+  padding: 7px 4px;
+  border: 0;
+  background: none;
+  border-radius: 12px;
+  cursor: pointer;
+  color: var(--tinta-3);
+  font-size: 0.68rem;
+  font-weight: 600;
+}
+.nav button.ativo { color: var(--laranja); }
+.nav button:hover { background: var(--realce); }
+.nav svg { width: 21px; height: 21px; }
+
+/* ── Grade de placas ────────────────────────────────────────────────────── */
+
+.grade-placas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+  gap: 10px;
+}
+.placa-item {
+  display: grid;
+  gap: 6px;
+  justify-items: center;
+  padding: 10px 6px;
+  background: var(--cartao);
+  border: 1px solid var(--borda);
+  border-radius: var(--raio);
+  cursor: pointer;
+  text-align: center;
+}
+.placa-item:hover { border-color: var(--tinta-3); }
+.placa-item .moldura {
+  width: 100%;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  background: #fff;
+  border-radius: 10px;
+  padding: 6px;
+}
+.placa-item img { max-width: 100%; max-height: 100%; }
+
+/* ── Formulário ─────────────────────────────────────────────────────────── */
+
+.campo { display: grid; gap: 6px; }
+.campo label { font-size: 0.85rem; font-weight: 600; color: var(--tinta-2); }
+.campo input {
+  font: inherit;
+  color: var(--tinta);
+  background: var(--cartao);
+  border: 1px solid var(--borda);
+  border-radius: 11px;
+  padding: 11px 13px;
+  width: 100%;
+}
+.campo input:focus { outline: 2px solid var(--laranja); outline-offset: 1px; }
+
+/* ── Estados vazios ─────────────────────────────────────────────────────── */
+
+.vazio {
+  display: grid;
+  gap: 8px;
+  justify-items: center;
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--tinta-2);
+}
+
+/* ── Cronômetro ─────────────────────────────────────────────────────────── */
+
+.relogio {
+  font-variant-numeric: tabular-nums;
+  font-weight: 660;
+  font-size: 1rem;
+}
+.relogio.apertado { color: var(--vermelho); }
+
+:focus-visible { outline: 2px solid var(--laranja); outline-offset: 2px; border-radius: 6px; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}

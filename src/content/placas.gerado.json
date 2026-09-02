@@ -1,1754 +1,1759 @@
-[
- {
-  "codigo": "R-1",
-  "nome": "Parada obrigatória",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-1.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-2",
-  "nome": "Dê a preferência",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-2.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-3",
-  "nome": "Sentido proibido",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-3.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-4a",
-  "nome": "Proibido virar à esquerda",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-4a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-4b",
-  "nome": "Proibido virar à direita",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-4b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-5a",
-  "nome": "Proibido retornar à esquerda",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-5a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-5b",
-  "nome": "Proibido retornar à direita",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-5b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-6a",
-  "nome": "Proibido estacionar",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-6a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-6b",
-  "nome": "Estacionamento regulamentado",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-6b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-6c",
-  "nome": "Proibido parar e estacionar",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-6c.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-7",
-  "nome": "Proibido ultrapassar",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-7.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-8a",
-  "nome": "Proibido mudar de faixa ou pista de trânsito da esquerda para direita",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-8a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-8b",
-  "nome": "Proibido mudar de faixa ou pista de trânsito da direita para a esquerda",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-8b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-9",
-  "nome": "Proibido trânsito de caminhões",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-9.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-10",
-  "nome": "Proibido trânsito de veículos automotores",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-10.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-11",
-  "nome": "Proibido trânsito de veículos de tração animal",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-11.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-12",
-  "nome": "Proibido trânsito de bicicletas",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-12.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-13",
-  "nome": "Proibido trânsito de tratores e máquinas de obras",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-13.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-14",
-  "nome": "Peso bruto total máximo permitido",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-14.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-15",
-  "nome": "Altura máxima permitida",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-15.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-16",
-  "nome": "Largura máxima permitida",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-16.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-17",
-  "nome": "Peso máximo permitido por eixo",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-17.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-18",
-  "nome": "Comprimento máximo permitido",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-18.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-19",
-  "nome": "Velocidade máxima permitida",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-19.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-20",
-  "nome": "Proibido acionar buzina ou sinal sonoro",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-20.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-21",
-  "nome": "Alfândega",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-21.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-22",
-  "nome": "Uso obrigatório de corrente",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-22.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-23",
-  "nome": "Conserve-se à direita",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-23.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-24a",
-  "nome": "Sentido de circulação da via/pista",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-24a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-24b",
-  "nome": "Passagem obrigatória",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-24b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-25a",
-  "nome": "Vire à esquerda",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-25a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-25b",
-  "nome": "Vire à direita",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-25b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-25c",
-  "nome": "Siga em frente ou à esquerda",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-25c.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-25d",
-  "nome": "Siga em frente ou à direita",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-25d.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-26",
-  "nome": "Siga em frente",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-26.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-27",
-  "nome": "Ônibus, caminhões e veículos de grande porte mantenham-se à direita",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-27.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-28",
-  "nome": "Duplo sentido de circulação",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-28.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-29",
-  "nome": "Proibido trânsito de pedestres",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-29.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-30",
-  "nome": "Pedestre, ande pela esquerda",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-30.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-31",
-  "nome": "Pedestre, ande pela direita",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-31.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-32",
-  "nome": "Circulação exclusiva de ônibus",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-32.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-33",
-  "nome": "Sentido de circulação na rotatória",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-33.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-34",
-  "nome": "Circulação exclusiva de bicicletas",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-34.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-35a",
-  "nome": "Ciclista, transite à esquerda",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-35a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-35b",
-  "nome": "Ciclista, transite à direita",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-35b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-36a",
-  "nome": "Ciclistas à esquerda, pedestres à direita",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-36a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-36b",
-  "nome": "Pedestres à esquerda, ciclistas à direita",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-36b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-37",
-  "nome": "Proibido trânsito de motocicletas, motonetas e ciclomotores",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-37.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-38",
-  "nome": "Proibido trânsito de ônibus",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-38.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-39",
-  "nome": "Circulação exclusiva de caminhão",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-39.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-40",
-  "nome": "Trânsito proibido a carros de mão",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-40.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-41",
-  "nome": "Circulação exclusiva de VLT / bonde",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-41.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-42a",
-  "nome": "Ciclistas à esquerda, VLT à direita",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-42a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-42b",
-  "nome": "Ciclistas à direita, VLT à esquerda",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-42b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-43a",
-  "nome": "Veículos à esquerda, VLT à direita",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-43a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-43b",
-  "nome": "Veículos à direita, VLT à esquerda",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-43b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "R-44",
-  "nome": "Circulação compartilhada de ciclistas e pedestres",
-  "descricao": "",
-  "categoria": "regulamentacao",
-  "categoriaRotulo": "Placas de regulamentação",
-  "imagem": "/placas/R-44.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 1
-  }
- },
- {
-  "codigo": "A-1a",
-  "nome": "Curva acentuada à esquerda",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-1a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-1b",
-  "nome": "Curva acentuada à direita",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-1b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-2a",
-  "nome": "Curva à esquerda",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-2a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-2b",
-  "nome": "Curva à direita",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-2b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-3a",
-  "nome": "Pista sinuosa à esquerda",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-3a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-3b",
-  "nome": "Pista sinuosa à direita",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-3b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-4a",
-  "nome": "Curva acentuada em \"S\" à esquerda",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-4a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-4b",
-  "nome": "Curva acentuada em \"S\" à direita",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-4b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-5a",
-  "nome": "Curva em \"S\" à esquerda",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-5a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-5b",
-  "nome": "Curva em \"S\" à direita",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-5b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-6",
-  "nome": "Cruzamento de vias",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-6.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-7a",
-  "nome": "Via lateral à esquerda",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-7a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-7b",
-  "nome": "Via lateral à direita",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-7b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-8",
-  "nome": "Interseção em \"T\"",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-8.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-9",
-  "nome": "Bifurcação em \"Y\"",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-9.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-10a",
-  "nome": "Entroncamento oblíquo à esquerda",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-10a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-10b",
-  "nome": "Entroncamento oblíquo à direita",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-10b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-11a",
-  "nome": "Junções sucessivas contrárias primeira à esquerda",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-11a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-11b",
-  "nome": "Junções sucessivas contrárias primeira à direita",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-11b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-12",
-  "nome": "Interseção em círculo",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-12.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-13a",
-  "nome": "Confluência à esquerda",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-13a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-13b",
-  "nome": "Confluência à direita",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-13b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-14",
-  "nome": "Semáforo à frente",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-14.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-15",
-  "nome": "Parada obrigatória à frente",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-15.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-16",
-  "nome": "Bonde / VLT",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-16.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-17",
-  "nome": "Pista irregular",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-17.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-18",
-  "nome": "Saliência ou lombada",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-18.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-19",
-  "nome": "Depressão",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-19.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-20a",
-  "nome": "Declive acentuado",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-20a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-20b",
-  "nome": "Aclive acentuado",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-20b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-21a",
-  "nome": "Estreitamento de pista ao centro",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-21a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-21b",
-  "nome": "Estreitamento de pista à esquerda",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-21b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-21c",
-  "nome": "Estreitamento de pista à direita",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-21c.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-21d",
-  "nome": "Alargamento de pista à esquerda",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-21d.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-21e",
-  "nome": "Alargamento de pista à direita",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-21e.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-22",
-  "nome": "Ponte estreita",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-22.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-23",
-  "nome": "Ponte móvel",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-23.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-24",
-  "nome": "Obras",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-24.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-25",
-  "nome": "Mão dupla adiante",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-25.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-26a",
-  "nome": "Sentido único",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-26a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-26b",
-  "nome": "Sentido duplo",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-26b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-27",
-  "nome": "Área com desmoronamento",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-27.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-28",
-  "nome": "Pista escorregadia",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-28.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-29",
-  "nome": "Projeção de cascalho",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-29.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-30a",
-  "nome": "Trânsito de ciclistas",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-30a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-30b",
-  "nome": "Passagem sinalizada de ciclistas",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-30b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-30c",
-  "nome": "Trânsito compartilhado por ciclistas e pedestres",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-30c.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-31",
-  "nome": "Trânsito de tratores ou maquinaria agrícola",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-31.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-32a",
-  "nome": "Trânsito de pedestres",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-32a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-32b",
-  "nome": "Passagem sinalizada de pedestres",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-32b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-33a",
-  "nome": "Área escolar",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-33a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-33b",
-  "nome": "Passagem sinalizada de escolares",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-33b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-34",
-  "nome": "Crianças",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-34.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-35",
-  "nome": "Animais",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-35.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-36",
-  "nome": "Animais selvagens",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-36.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-37",
-  "nome": "Altura limitada",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-37.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-38",
-  "nome": "Largura limitada",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-38.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-39",
-  "nome": "Passagem de nível sem barreira",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-39.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-40",
-  "nome": "Passagem de nível com barreira",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-40.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-41",
-  "nome": "Cruz de Santo André",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-41.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-42a",
-  "nome": "Início de pista dupla",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-42a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-42b",
-  "nome": "Fim de pista dupla",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-42b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-42c",
-  "nome": "Pista dividida",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-42c.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-43",
-  "nome": "Aeroporto",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-43.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 2
-  }
- },
- {
-  "codigo": "A-44",
-  "nome": "Vento lateral",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-44.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 3
-  }
- },
- {
-  "codigo": "A-45",
-  "nome": "Rua sem saída",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-45.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 3
-  }
- },
- {
-  "codigo": "A-46",
-  "nome": "Peso bruto total limitado",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-46.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 3
-  }
- },
- {
-  "codigo": "A-47",
-  "nome": "Peso limitado por eixo",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-47.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 3
-  }
- },
- {
-  "codigo": "A-48",
-  "nome": "Comprimento limitado",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-48.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 3
-  }
- },
- {
-  "codigo": "A-49a",
-  "nome": "Pedestres à esquerda, VLT à direita",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-49a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 3
-  }
- },
- {
-  "codigo": "A-49b",
-  "nome": "Pedestres à direita, VLT à esquerda",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-49b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 3
-  }
- },
- {
-  "codigo": "A-50a",
-  "nome": "Veículos à esquerda, VLT à direita",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-50a.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 3
-  }
- },
- {
-  "codigo": "A-50b",
-  "nome": "Veículos à direita, VLT à esquerda",
-  "descricao": "",
-  "categoria": "advertencia",
-  "categoriaRotulo": "Placas de advertência",
-  "imagem": "/placas/A-50b.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 3
-  }
- },
- {
-  "codigo": "DEF-01",
-  "nome": "Símbolo Internacional de Acesso",
-  "descricao": "Indicação de rota, mobiliário, espaço ou equipamento urbano que atende às exigências de normas de acessibilidade",
-  "categoria": "indicacao",
-  "categoriaRotulo": "Placas de indicação (pictogramas)",
-  "imagem": "/placas/DEF-01.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 4
-  }
- },
- {
-  "codigo": "SAU-06",
-  "nome": "Serviço Telefônico",
-  "descricao": "Locais com telefone para uso público",
-  "categoria": "indicacao",
-  "categoriaRotulo": "Placas de indicação (pictogramas)",
-  "imagem": "/placas/SAU-06.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 4
-  }
- },
- {
-  "codigo": "SAU-08",
-  "nome": "Borracharia",
-  "descricao": "Locais que apresentam serviço de borracheiro",
-  "categoria": "indicacao",
-  "categoriaRotulo": "Placas de indicação (pictogramas)",
-  "imagem": "/placas/SAU-08.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 4
-  }
- },
- {
-  "codigo": "SAU-09",
-  "nome": "Abastecimento",
-  "descricao": "Existência de posto de abastecimento",
-  "categoria": "indicacao",
-  "categoriaRotulo": "Placas de indicação (pictogramas)",
-  "imagem": "/placas/SAU-09.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 4
-  }
- },
- {
-  "codigo": "SAU-10",
-  "nome": "Pronto Socorro",
-  "descricao": "Existência de pronto-socorro, hospital, ou casa de saúde",
-  "categoria": "indicacao",
-  "categoriaRotulo": "Placas de indicação (pictogramas)",
-  "imagem": "/placas/SAU-10.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 4
-  }
- },
- {
-  "codigo": "SAU-12",
-  "nome": "Restaurante",
-  "descricao": "Existência de restaurante ou lanchonete",
-  "categoria": "indicacao",
-  "categoriaRotulo": "Placas de indicação (pictogramas)",
-  "imagem": "/placas/SAU-12.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 4
-  }
- },
- {
-  "codigo": "SAU-13",
-  "nome": "Hotel",
-  "descricao": "Locais com serviços hoteleiros",
-  "categoria": "indicacao",
-  "categoriaRotulo": "Placas de indicação (pictogramas)",
-  "imagem": "/placas/SAU-13.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 4
-  }
- },
- {
-  "codigo": "SAU-18",
-  "nome": "Pedágio",
-  "descricao": "Existência de praça de pedágio",
-  "categoria": "indicacao",
-  "categoriaRotulo": "Placas de indicação (pictogramas)",
-  "imagem": "/placas/SAU-18.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 4
-  }
- },
- {
-  "codigo": "SAU-19",
-  "nome": "Terminal Rodoviário",
-  "descricao": "Terminais de passageiros de ônibus urbano, interurbano ou rodoviário",
-  "categoria": "indicacao",
-  "categoriaRotulo": "Placas de indicação (pictogramas)",
-  "imagem": "/placas/SAU-19.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 4
-  }
- },
- {
-  "codigo": "SAU-21",
-  "nome": "Aeroporto",
-  "descricao": "Aeroportos domésticos e internacionais",
-  "categoria": "indicacao",
-  "categoriaRotulo": "Placas de indicação (pictogramas)",
-  "imagem": "/placas/SAU-21.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 4
-  }
- },
- {
-  "codigo": "SAU-26",
-  "nome": "Ponto de Parada",
-  "descricao": "Ponto de parada de ônibus",
-  "categoria": "indicacao",
-  "categoriaRotulo": "Placas de indicação (pictogramas)",
-  "imagem": "/placas/SAU-26.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 4
-  }
- },
- {
-  "codigo": "TAR-03",
-  "nome": "Parque Urbano",
-  "descricao": "Parque urbanos com predominância de áreas verdes",
-  "categoria": "indicacao",
-  "categoriaRotulo": "Placas de indicação (pictogramas)",
-  "imagem": "/placas/TAR-03.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 4
-  }
- },
- {
-  "codigo": "THC-05",
-  "nome": "Museu",
-  "descricao": "Locais que abrigam e conservam acervos históricos ou artísticos, abertos à visitação pública, voltados à pesquisa com o objetivo de promover estudos, educação e lazer",
-  "categoria": "indicacao",
-  "categoriaRotulo": "Placas de indicação (pictogramas)",
-  "imagem": "/placas/THC-05.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 4
-  }
- },
- {
-  "codigo": "THC-11",
-  "nome": "Biblioteca",
-  "descricao": "Bibliotecas abertas ao público",
-  "categoria": "indicacao",
-  "categoriaRotulo": "Placas de indicação (pictogramas)",
-  "imagem": "/placas/THC-11.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 4
-  }
- },
- {
-  "codigo": "TNA-05",
-  "nome": "Cachoeira",
-  "descricao": "Cachoeiras e quedas d'água",
-  "categoria": "indicacao",
-  "categoriaRotulo": "Placas de indicação (pictogramas)",
-  "imagem": "/placas/TNA-05.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 4
-  }
- },
- {
-  "codigo": "TNA-06",
-  "nome": "Patrimônio Natural",
-  "descricao": "Áreas naturais conservadas, públicas ou privadas, com visitação permitida e reconhecidas como de interesse de preservação",
-  "categoria": "indicacao",
-  "categoriaRotulo": "Placas de indicação (pictogramas)",
-  "imagem": "/placas/TNA-06.webp",
-  "origem": {
-   "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
-   "pagina": 4
-  }
- }
-]
+{
+ "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+ "arquivo": "fontes/mosaico-placas-sinalizacao.pdf",
+ "paginas": 4,
+ "itens": [
+  {
+   "codigo": "R-1",
+   "nome": "Parada obrigatória",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-1.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-2",
+   "nome": "Dê a preferência",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-2.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-3",
+   "nome": "Sentido proibido",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-3.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-4a",
+   "nome": "Proibido virar à esquerda",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-4a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-4b",
+   "nome": "Proibido virar à direita",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-4b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-5a",
+   "nome": "Proibido retornar à esquerda",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-5a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-5b",
+   "nome": "Proibido retornar à direita",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-5b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-6a",
+   "nome": "Proibido estacionar",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-6a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-6b",
+   "nome": "Estacionamento regulamentado",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-6b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-6c",
+   "nome": "Proibido parar e estacionar",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-6c.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-7",
+   "nome": "Proibido ultrapassar",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-7.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-8a",
+   "nome": "Proibido mudar de faixa ou pista de trânsito da esquerda para direita",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-8a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-8b",
+   "nome": "Proibido mudar de faixa ou pista de trânsito da direita para a esquerda",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-8b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-9",
+   "nome": "Proibido trânsito de caminhões",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-9.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-10",
+   "nome": "Proibido trânsito de veículos automotores",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-10.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-11",
+   "nome": "Proibido trânsito de veículos de tração animal",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-11.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-12",
+   "nome": "Proibido trânsito de bicicletas",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-12.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-13",
+   "nome": "Proibido trânsito de tratores e máquinas de obras",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-13.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-14",
+   "nome": "Peso bruto total máximo permitido",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-14.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-15",
+   "nome": "Altura máxima permitida",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-15.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-16",
+   "nome": "Largura máxima permitida",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-16.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-17",
+   "nome": "Peso máximo permitido por eixo",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-17.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-18",
+   "nome": "Comprimento máximo permitido",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-18.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-19",
+   "nome": "Velocidade máxima permitida",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-19.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-20",
+   "nome": "Proibido acionar buzina ou sinal sonoro",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-20.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-21",
+   "nome": "Alfândega",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-21.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-22",
+   "nome": "Uso obrigatório de corrente",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-22.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-23",
+   "nome": "Conserve-se à direita",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-23.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-24a",
+   "nome": "Sentido de circulação da via/pista",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-24a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-24b",
+   "nome": "Passagem obrigatória",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-24b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-25a",
+   "nome": "Vire à esquerda",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-25a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-25b",
+   "nome": "Vire à direita",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-25b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-25c",
+   "nome": "Siga em frente ou à esquerda",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-25c.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-25d",
+   "nome": "Siga em frente ou à direita",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-25d.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-26",
+   "nome": "Siga em frente",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-26.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-27",
+   "nome": "Ônibus, caminhões e veículos de grande porte mantenham-se à direita",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-27.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-28",
+   "nome": "Duplo sentido de circulação",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-28.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-29",
+   "nome": "Proibido trânsito de pedestres",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-29.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-30",
+   "nome": "Pedestre, ande pela esquerda",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-30.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-31",
+   "nome": "Pedestre, ande pela direita",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-31.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-32",
+   "nome": "Circulação exclusiva de ônibus",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-32.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-33",
+   "nome": "Sentido de circulação na rotatória",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-33.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-34",
+   "nome": "Circulação exclusiva de bicicletas",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-34.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-35a",
+   "nome": "Ciclista, transite à esquerda",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-35a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-35b",
+   "nome": "Ciclista, transite à direita",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-35b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-36a",
+   "nome": "Ciclistas à esquerda, pedestres à direita",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-36a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-36b",
+   "nome": "Pedestres à esquerda, ciclistas à direita",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-36b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-37",
+   "nome": "Proibido trânsito de motocicletas, motonetas e ciclomotores",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-37.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-38",
+   "nome": "Proibido trânsito de ônibus",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-38.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-39",
+   "nome": "Circulação exclusiva de caminhão",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-39.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-40",
+   "nome": "Trânsito proibido a carros de mão",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-40.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-41",
+   "nome": "Circulação exclusiva de VLT / bonde",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-41.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-42a",
+   "nome": "Ciclistas à esquerda, VLT à direita",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-42a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-42b",
+   "nome": "Ciclistas à direita, VLT à esquerda",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-42b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-43a",
+   "nome": "Veículos à esquerda, VLT à direita",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-43a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-43b",
+   "nome": "Veículos à direita, VLT à esquerda",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-43b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "R-44",
+   "nome": "Circulação compartilhada de ciclistas e pedestres",
+   "descricao": "",
+   "categoria": "regulamentacao",
+   "categoriaRotulo": "Placas de regulamentação",
+   "imagem": "/placas/R-44.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 1
+   }
+  },
+  {
+   "codigo": "A-1a",
+   "nome": "Curva acentuada à esquerda",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-1a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-1b",
+   "nome": "Curva acentuada à direita",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-1b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-2a",
+   "nome": "Curva à esquerda",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-2a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-2b",
+   "nome": "Curva à direita",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-2b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-3a",
+   "nome": "Pista sinuosa à esquerda",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-3a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-3b",
+   "nome": "Pista sinuosa à direita",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-3b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-4a",
+   "nome": "Curva acentuada em \"S\" à esquerda",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-4a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-4b",
+   "nome": "Curva acentuada em \"S\" à direita",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-4b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-5a",
+   "nome": "Curva em \"S\" à esquerda",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-5a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-5b",
+   "nome": "Curva em \"S\" à direita",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-5b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-6",
+   "nome": "Cruzamento de vias",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-6.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-7a",
+   "nome": "Via lateral à esquerda",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-7a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-7b",
+   "nome": "Via lateral à direita",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-7b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-8",
+   "nome": "Interseção em \"T\"",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-8.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-9",
+   "nome": "Bifurcação em \"Y\"",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-9.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-10a",
+   "nome": "Entroncamento oblíquo à esquerda",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-10a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-10b",
+   "nome": "Entroncamento oblíquo à direita",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-10b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-11a",
+   "nome": "Junções sucessivas contrárias primeira à esquerda",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-11a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-11b",
+   "nome": "Junções sucessivas contrárias primeira à direita",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-11b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-12",
+   "nome": "Interseção em círculo",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-12.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-13a",
+   "nome": "Confluência à esquerda",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-13a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-13b",
+   "nome": "Confluência à direita",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-13b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-14",
+   "nome": "Semáforo à frente",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-14.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-15",
+   "nome": "Parada obrigatória à frente",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-15.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-16",
+   "nome": "Bonde / VLT",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-16.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-17",
+   "nome": "Pista irregular",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-17.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-18",
+   "nome": "Saliência ou lombada",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-18.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-19",
+   "nome": "Depressão",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-19.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-20a",
+   "nome": "Declive acentuado",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-20a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-20b",
+   "nome": "Aclive acentuado",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-20b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-21a",
+   "nome": "Estreitamento de pista ao centro",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-21a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-21b",
+   "nome": "Estreitamento de pista à esquerda",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-21b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-21c",
+   "nome": "Estreitamento de pista à direita",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-21c.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-21d",
+   "nome": "Alargamento de pista à esquerda",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-21d.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-21e",
+   "nome": "Alargamento de pista à direita",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-21e.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-22",
+   "nome": "Ponte estreita",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-22.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-23",
+   "nome": "Ponte móvel",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-23.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-24",
+   "nome": "Obras",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-24.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-25",
+   "nome": "Mão dupla adiante",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-25.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-26a",
+   "nome": "Sentido único",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-26a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-26b",
+   "nome": "Sentido duplo",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-26b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-27",
+   "nome": "Área com desmoronamento",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-27.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-28",
+   "nome": "Pista escorregadia",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-28.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-29",
+   "nome": "Projeção de cascalho",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-29.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-30a",
+   "nome": "Trânsito de ciclistas",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-30a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-30b",
+   "nome": "Passagem sinalizada de ciclistas",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-30b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-30c",
+   "nome": "Trânsito compartilhado por ciclistas e pedestres",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-30c.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-31",
+   "nome": "Trânsito de tratores ou maquinaria agrícola",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-31.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-32a",
+   "nome": "Trânsito de pedestres",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-32a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-32b",
+   "nome": "Passagem sinalizada de pedestres",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-32b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-33a",
+   "nome": "Área escolar",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-33a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-33b",
+   "nome": "Passagem sinalizada de escolares",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-33b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-34",
+   "nome": "Crianças",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-34.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-35",
+   "nome": "Animais",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-35.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-36",
+   "nome": "Animais selvagens",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-36.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-37",
+   "nome": "Altura limitada",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-37.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-38",
+   "nome": "Largura limitada",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-38.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-39",
+   "nome": "Passagem de nível sem barreira",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-39.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-40",
+   "nome": "Passagem de nível com barreira",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-40.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-41",
+   "nome": "Cruz de Santo André",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-41.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-42a",
+   "nome": "Início de pista dupla",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-42a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-42b",
+   "nome": "Fim de pista dupla",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-42b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-42c",
+   "nome": "Pista dividida",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-42c.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-43",
+   "nome": "Aeroporto",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-43.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 2
+   }
+  },
+  {
+   "codigo": "A-44",
+   "nome": "Vento lateral",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-44.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 3
+   }
+  },
+  {
+   "codigo": "A-45",
+   "nome": "Rua sem saída",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-45.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 3
+   }
+  },
+  {
+   "codigo": "A-46",
+   "nome": "Peso bruto total limitado",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-46.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 3
+   }
+  },
+  {
+   "codigo": "A-47",
+   "nome": "Peso limitado por eixo",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-47.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 3
+   }
+  },
+  {
+   "codigo": "A-48",
+   "nome": "Comprimento limitado",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-48.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 3
+   }
+  },
+  {
+   "codigo": "A-49a",
+   "nome": "Pedestres à esquerda, VLT à direita",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-49a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 3
+   }
+  },
+  {
+   "codigo": "A-49b",
+   "nome": "Pedestres à direita, VLT à esquerda",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-49b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 3
+   }
+  },
+  {
+   "codigo": "A-50a",
+   "nome": "Veículos à esquerda, VLT à direita",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-50a.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 3
+   }
+  },
+  {
+   "codigo": "A-50b",
+   "nome": "Veículos à direita, VLT à esquerda",
+   "descricao": "",
+   "categoria": "advertencia",
+   "categoriaRotulo": "Placas de advertência",
+   "imagem": "/placas/A-50b.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 3
+   }
+  },
+  {
+   "codigo": "DEF-01",
+   "nome": "Símbolo Internacional de Acesso",
+   "descricao": "Indicação de rota, mobiliário, espaço ou equipamento urbano que atende às exigências de normas de acessibilidade",
+   "categoria": "indicacao",
+   "categoriaRotulo": "Placas de indicação (pictogramas)",
+   "imagem": "/placas/DEF-01.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 4
+   }
+  },
+  {
+   "codigo": "SAU-06",
+   "nome": "Serviço Telefônico",
+   "descricao": "Locais com telefone para uso público",
+   "categoria": "indicacao",
+   "categoriaRotulo": "Placas de indicação (pictogramas)",
+   "imagem": "/placas/SAU-06.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 4
+   }
+  },
+  {
+   "codigo": "SAU-08",
+   "nome": "Borracharia",
+   "descricao": "Locais que apresentam serviço de borracheiro",
+   "categoria": "indicacao",
+   "categoriaRotulo": "Placas de indicação (pictogramas)",
+   "imagem": "/placas/SAU-08.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 4
+   }
+  },
+  {
+   "codigo": "SAU-09",
+   "nome": "Abastecimento",
+   "descricao": "Existência de posto de abastecimento",
+   "categoria": "indicacao",
+   "categoriaRotulo": "Placas de indicação (pictogramas)",
+   "imagem": "/placas/SAU-09.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 4
+   }
+  },
+  {
+   "codigo": "SAU-10",
+   "nome": "Pronto Socorro",
+   "descricao": "Existência de pronto-socorro, hospital, ou casa de saúde",
+   "categoria": "indicacao",
+   "categoriaRotulo": "Placas de indicação (pictogramas)",
+   "imagem": "/placas/SAU-10.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 4
+   }
+  },
+  {
+   "codigo": "SAU-12",
+   "nome": "Restaurante",
+   "descricao": "Existência de restaurante ou lanchonete",
+   "categoria": "indicacao",
+   "categoriaRotulo": "Placas de indicação (pictogramas)",
+   "imagem": "/placas/SAU-12.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 4
+   }
+  },
+  {
+   "codigo": "SAU-13",
+   "nome": "Hotel",
+   "descricao": "Locais com serviços hoteleiros",
+   "categoria": "indicacao",
+   "categoriaRotulo": "Placas de indicação (pictogramas)",
+   "imagem": "/placas/SAU-13.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 4
+   }
+  },
+  {
+   "codigo": "SAU-18",
+   "nome": "Pedágio",
+   "descricao": "Existência de praça de pedágio",
+   "categoria": "indicacao",
+   "categoriaRotulo": "Placas de indicação (pictogramas)",
+   "imagem": "/placas/SAU-18.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 4
+   }
+  },
+  {
+   "codigo": "SAU-19",
+   "nome": "Terminal Rodoviário",
+   "descricao": "Terminais de passageiros de ônibus urbano, interurbano ou rodoviário",
+   "categoria": "indicacao",
+   "categoriaRotulo": "Placas de indicação (pictogramas)",
+   "imagem": "/placas/SAU-19.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 4
+   }
+  },
+  {
+   "codigo": "SAU-21",
+   "nome": "Aeroporto",
+   "descricao": "Aeroportos domésticos e internacionais",
+   "categoria": "indicacao",
+   "categoriaRotulo": "Placas de indicação (pictogramas)",
+   "imagem": "/placas/SAU-21.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 4
+   }
+  },
+  {
+   "codigo": "SAU-26",
+   "nome": "Ponto de Parada",
+   "descricao": "Ponto de parada de ônibus",
+   "categoria": "indicacao",
+   "categoriaRotulo": "Placas de indicação (pictogramas)",
+   "imagem": "/placas/SAU-26.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 4
+   }
+  },
+  {
+   "codigo": "TAR-03",
+   "nome": "Parque Urbano",
+   "descricao": "Parque urbanos com predominância de áreas verdes",
+   "categoria": "indicacao",
+   "categoriaRotulo": "Placas de indicação (pictogramas)",
+   "imagem": "/placas/TAR-03.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 4
+   }
+  },
+  {
+   "codigo": "THC-05",
+   "nome": "Museu",
+   "descricao": "Locais que abrigam e conservam acervos históricos ou artísticos, abertos à visitação pública, voltados à pesquisa com o objetivo de promover estudos, educação e lazer",
+   "categoria": "indicacao",
+   "categoriaRotulo": "Placas de indicação (pictogramas)",
+   "imagem": "/placas/THC-05.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 4
+   }
+  },
+  {
+   "codigo": "THC-11",
+   "nome": "Biblioteca",
+   "descricao": "Bibliotecas abertas ao público",
+   "categoria": "indicacao",
+   "categoriaRotulo": "Placas de indicação (pictogramas)",
+   "imagem": "/placas/THC-11.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 4
+   }
+  },
+  {
+   "codigo": "TNA-05",
+   "nome": "Cachoeira",
+   "descricao": "Cachoeiras e quedas d'água",
+   "categoria": "indicacao",
+   "categoriaRotulo": "Placas de indicação (pictogramas)",
+   "imagem": "/placas/TNA-05.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 4
+   }
+  },
+  {
+   "codigo": "TNA-06",
+   "nome": "Patrimônio Natural",
+   "descricao": "Áreas naturais conservadas, públicas ou privadas, com visitação permitida e reconhecidas como de interesse de preservação",
+   "categoria": "indicacao",
+   "categoriaRotulo": "Placas de indicação (pictogramas)",
+   "imagem": "/placas/TNA-06.webp",
+   "origem": {
+    "documento": "Mosaico de Placas de Sinalização (Manual Brasileiro de Sinalização de Trânsito)",
+    "pagina": 4
+   }
+  }
+ ]
+}

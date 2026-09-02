@@ -129,14 +129,15 @@ def trecho(inicio_re: str, fim_re: str, onde: str) -> str | None:
     return limpar(bruto)
 
 
-def extrair() -> tuple[list[dict], list[str]]:
-    texto, mapa = montar_texto(paginas_do_pdf())
+def extrair() -> tuple[list[dict], list[str], int]:
+    paginas = paginas_do_pdf()
+    texto, mapa = montar_texto(paginas)
     marcos = marcos_de_secao(texto)
     inicios = list(INICIO.finditer(texto))
     if not inicios:
         sys.exit("Nenhuma questão encontrada — o PDF mudou de formato.")
 
-    codigos_de_placa = {p["codigo"] for p in json.load(open(PLACAS, encoding="utf-8"))}
+    codigos_de_placa = {p["codigo"] for p in json.load(open(PLACAS, encoding="utf-8"))["itens"]}
     questoes: list[dict] = []
     avisos: list[str] = []
     vistas: dict[tuple[str, str], str] = {}
@@ -206,15 +207,21 @@ def extrair() -> tuple[list[dict], list[str]]:
             "origem": {"documento": DOC, "pagina": pagina},
         })
 
-    return questoes, avisos
+    return questoes, avisos, len(paginas)
 
 
 def main() -> None:
-    questoes, avisos = extrair()
+    questoes, avisos, paginas = extrair()
 
     os.makedirs(os.path.dirname(SAIDA), exist_ok=True)
+    manifesto = {
+        "documento": DOC,
+        "arquivo": os.path.relpath(PDF, RAIZ),
+        "paginas": paginas,
+        "itens": questoes,
+    }
     with open(SAIDA, "w", encoding="utf-8") as arquivo:
-        json.dump(questoes, arquivo, ensure_ascii=False, indent=1)
+        json.dump(manifesto, arquivo, ensure_ascii=False, indent=1)
         arquivo.write("\n")
 
     print(f"{len(questoes)} questões extraídas de {PDF}")
