@@ -38,10 +38,14 @@ Você faz isso pelo painel, sem terminal.
    | Campo | O que colocar |
    | --- | --- |
    | Project name | `baliza` |
-   | Production branch | a branch que você quer publicar |
+   | Production branch | **`claude/ola-hvxsnd`** |
    | Build command | `npm run build` |
    | Deploy command | `npx wrangler deploy` |
    | Path / Root directory | deixe em branco |
+
+   > **Atenção ao nome da branch.** O repositório tem só a
+   > `claude/ola-hvxsnd` — **não existe `main`**. Se o campo vier preenchido
+   > com `main`, troque, senão o build não acha o código.
 
 7. Clique em **Create and deploy**
 
