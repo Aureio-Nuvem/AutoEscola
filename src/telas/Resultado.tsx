@@ -13,6 +13,7 @@ const NOMES = {
   dia: 'Sessão do dia',
   bloco: 'Bloco concluído',
   erros: 'Revisão concluída',
+  placas: 'Treino de placas',
   simulado: 'Simulado',
 } as const
 

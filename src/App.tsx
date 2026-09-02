@@ -62,6 +62,7 @@ const TITULOS: Record<TipoSessao, string> = {
   dia: 'Sessão do dia',
   bloco: 'Bloco',
   erros: 'Meus erros',
+  placas: 'Placas',
   simulado: 'Simulado',
 }
 
@@ -222,7 +223,7 @@ export function App() {
           <Placas
             totalQuestoes={QUESTOES_DE_PLACA.length}
             onTreinar={() =>
-              iniciar('bloco', montarSessaoDePlacas(progresso, progresso.ajustes.tamanhoSessao))
+              iniciar('placas', montarSessaoDePlacas(progresso, progresso.ajustes.tamanhoSessao))
             }
           />
         )

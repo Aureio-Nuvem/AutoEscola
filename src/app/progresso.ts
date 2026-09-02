@@ -33,7 +33,7 @@ export interface RegistroQuestao {
   revisarEm: string
 }
 
-export type TipoSessao = 'dia' | 'bloco' | 'erros' | 'simulado'
+export type TipoSessao = 'dia' | 'bloco' | 'erros' | 'placas' | 'simulado'
 
 export interface SessaoSalva {
   tipo: TipoSessao
